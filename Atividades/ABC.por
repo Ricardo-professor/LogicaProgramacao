@@ -12,6 +12,7 @@ programa
 	
 	funcao inicio()
 	{
+		//Declaração de variáveis
 		inteiro A, B, C, Soma
 		real Media
 		real Resultado
@@ -22,7 +23,8 @@ programa
 		leia(B)
 		escreva("Informe o número C: ")
 		leia(C)
-	
+		
+		//Processamento
 
 		Soma = A + B
 		se (Soma < C) {
