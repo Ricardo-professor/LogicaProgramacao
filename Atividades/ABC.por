@@ -13,15 +13,16 @@ programa
 	funcao inicio()
 	{
 		//Declaração de variáveis
+		cadeia nome = "Ricardo"
 		inteiro A, B, C, Soma
 		real Media
 		real Resultado
 		
-		escreva("Informe o número A: ")
+		escreva(nome + ", informe o número A: ")
 		leia(A)
-		escreva("Informe o número B: ")
+		escreva(nome + ", informe o número B: ")
 		leia(B)
-		escreva("Informe o número C: ")
+		escreva(nome + ", informe o número C: ")
 		leia(C)
 		
 		//Processamento
